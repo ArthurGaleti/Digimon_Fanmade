@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+span{
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 17px;
+}
+
+.rodape{
+    background-color: rgb(241, 118, 118);
+    width: 100%;
+}
