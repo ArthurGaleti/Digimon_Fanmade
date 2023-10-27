@@ -12,7 +12,7 @@ img{
     background-color: rgba(0,0,0,0);
     width: 100px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: px;
 }
 
 div{
@@ -29,11 +29,11 @@ ul{
     display: flex;
     justify-content: center;
     gap: 30%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
-button{
+.button{
     margin-top: 24%;
-
+    background-color: white;
     width: 150px;
     height: 50px;
     border-style: none;
@@ -41,8 +41,8 @@ button{
     cursor: pointer;
     transition: 0.5s;
 }
-button:hover{
-    background-color: rgb(241, 184, 25);
+.button:hover{
+    background-color: rgb(241, 165, 25);
 }
 
 a{
@@ -58,5 +58,5 @@ a{
 }
 
 .lista:hover{
-    color: rgb(255, 195, 29);
+    color: rgb(241, 165, 25);
 }

@@ -1,0 +1,41 @@
+h1{
+    color: rgb(219, 219, 219);
+}
+
+.p1{
+float: left;
+margin-right: 17px;
+font-size: 20px;
+width: 450px;
+color: rgb(219, 219, 219);
+}
+
+.p2{
+float: right;
+margin-left: 17px;
+font-size: 20px;
+width: 450px;
+color: rgb(219, 219, 219);
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+}
+
+.hist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hist h1{
+    text-align:center;
+}
+
+.hist img{
+    width: 250px;
+    height: 250px;
+}

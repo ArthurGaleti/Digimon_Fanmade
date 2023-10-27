@@ -1,5 +1,5 @@
 import "./menu.css"
-// import image from "../../img/icon2.png"
+import image from "../../img/icon.png"
 
 
 function Menu(){
@@ -7,20 +7,20 @@ function Menu(){
         <>
             <header>
                 <div>
-                    {/* <img src={image}/> */}
+                    <img src={image}/>
                 </div>
 
                 <div>
                     <ul>
                         <li><a href="/" className="lista">Home</a></li>
-                        <li><a href="/" className="lista">mi</a></li>
-                        <li><a href="/" className="lista">gtr</a></li>
-                        <li><a href="/" className="lista">Produtos</a></li>
+                        <li><a href="/" className="lista">Blog</a></li>
+                        <li><a href="/" className="lista">Jogos</a></li>
+                        <li><a href="/" className="lista">Animações</a></li>
                     </ul>
                 </div>
 
                 <div>         
-                    <button className="botao"><a>Login/Create</a></button>        
+                    <button className="button"><a href="/login_user">Login/Create</a></button>        
                 </div>
 
                 
